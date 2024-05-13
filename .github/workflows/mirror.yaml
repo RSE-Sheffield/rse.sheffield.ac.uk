@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+  pull_request:
   workflow_dispatch:
 
 # Set permissions on the github.token for gh-pages use
